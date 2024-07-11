@@ -1,0 +1,27 @@
+body {
+    background-color: #414141;
+    color: #fff;
+    overflow: hidden;
+}
+
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.table-time {
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+table,
+td,
+th {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 10px;
+    font-size: 1.3rem;
+}
